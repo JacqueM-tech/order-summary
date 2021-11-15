@@ -23,6 +23,8 @@ body {
     text-align: center; 
     background: var(--Pale-blue);
     min-height: 100vh;
+    background-image: url("../images/pattern-background-mobile.svg");
+    background-repeat: no-repeat;
 }
 p {
     font-size: 16px;
@@ -44,6 +46,9 @@ main {
 header img {
     border-radius: 15px 15px 0 0;
     width: 100%;
+}
+h1 {
+    font-size: 1.5rem;
 }
 .os {
     display: flex;
@@ -76,7 +81,6 @@ header img {
 }
 .plan h3 {
     font-weight: 900;
-    font-size: 1.5rem;
 }
 .change {
     font-weight: 900;
@@ -98,7 +102,7 @@ button {
     background: var(--Bright-blue);
     font-weight: 900;
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.15rem;
     border: none;
     box-shadow: 10px 10px 8px var(--Desaturated-blue);
     cursor: pointer;
@@ -115,7 +119,7 @@ button {
     body {
         background-image: url("../images/pattern-background-desktop.svg");
         background-repeat: no-repeat;
-        width: 100%;
+        background-size: contain;
     }
     .change {
         cursor: pointer;
